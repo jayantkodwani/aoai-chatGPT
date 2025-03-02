@@ -45,7 +45,7 @@ class _UiSettings(BaseSettings):
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Ask anything about iPay"
-    chat_description: str = """iPay4All GPT is your go-to AI-powered assistant, designed to keep all staff informed and engaged. Whether you need insights on company leadership, policies, the latest news, or best practices, this intelligent resource is here to help. With seamless access to vital information, interactive guidance, and instant responses, iPay4All GPT empowers employees to stay connected, make informed decisions, and enhance workplace collaboration."""
+    chat_description: str = "iPay4All GPT is your go-to AI-powered assistant, designed to keep all staff informed and engaged. Whether you need insights on company leadership, policies, the latest news, or best practices, this intelligent resource is here to help. With seamless access to vital information, interactive guidance, and instant responses, iPay4All GPT empowers employees to stay connected, make informed decisions, and enhance workplace collaboration."
     
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
